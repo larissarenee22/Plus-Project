@@ -1,0 +1,121 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(87, 152, 235) 0%,
+    rgb(133, 222, 213) 67%
+  );
+
+  border-style: solid;
+  border-color: rgb(15, 99, 155);
+  padding: 25px;
+  margin: 10px auto;
+}
+
+.search {
+  margin: 15px;
+  background-color: white;
+  border-color: #00867f;
+  color: rgb(61, 61, 170);
+  font-family: "Arvo", serif;
+  border-width: 5px;
+}
+
+.go {
+  background-color: #01a9a0;
+  color: aliceblue;
+  font-family: "Arvo", serif;
+  border-width: 5px;
+  border-color: #00867f;
+  border-radius: 15%;
+}
+
+.header {
+  background-color: aliceblue;
+  border-color: #5585b5;
+  border-style: double;
+  border-width: 5px;
+  border-color: #006085;
+}
+
+.card {
+  background-color: gb(61, 61, 170) !important;
+  color: aliceblue;
+  margin: 15px;
+  font-family: "Arvo", serif;
+  text-align: center;
+  padding: 5px;
+  border-style: outset !important;
+  background: #00867f !important;
+
+  border-width: 5px !important;
+  border-radius: 15% !important;
+}
+
+.current-temp {
+  font-size: 50px;
+}
+
+.current-location {
+  color: aliceblue;
+  font-family: "Arvo", serif;
+  padding: 5px;
+  background: #00867f !important;
+  border-radius: 5px;
+}
+
+.current-date {
+  background-color: #00867f !important;
+  color: aliceblue;
+  font-family: "Arvo", serif;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.sun {
+  position: absolute;
+  top: 8%;
+  right: 15%;
+  text-align: right !important;
+}
+
+.container {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Arvo", serif;
+  margin-top: 15px;
+}
+
+.col {
+  border-style: double;
+  border-width: 5px;
+  border-radius: 15px;
+  margin: 3px;
+  border-color: #5585b5;
+  background-color: aliceblue;
+  color: rgb(61, 61, 170);
+  padding: 15px;
+}
+
+.list-unstyled {
+  text-align: center !important;
+  padding: 10px;
+  margin: 15px;
+  font-size: 25px;
+  font-family: "Arvo", serif;
+  border-style: double;
+  border-color: #5585b5;
+  background-color: aliceblue;
+  border-style: double;
+  border-width: 5px;
+}
+
+.list-group-item {
+  background: radial-gradient(
+    939px at 94.7% 50%,
+    rgb(0, 178, 169) 0%,
+    rgb(0, 106, 101) 76.9%
+  );
+
+  color: aliceblue !important;
+  margin: 15px;
+}
